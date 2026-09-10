@@ -56,7 +56,7 @@ ALL_CAPS constants at the top of each module; the main ones:
 | `HUBER_C` | 1.345 | Huber threshold, in units of the innovation's scale |
 | `DIFFUSIVITY_M2_PER_YEAR` | 50 m² yr⁻¹ | forecast diffusion (regularisation) |
 | `MAX_ANALYSIS_SD_M` | 1.0 m | a cell is reported where sqrt(P) is below it |
-| `REJECT_DIFF_PCT` | 95 | percentile of the run's innovations setting delta_max |
+| `REJECT_DIFF_PCT` | 99 | percentile of the run's innovations setting delta_max |
 | `REJECT_DIST_PCT` | 99 | percentile of the run's new-cell distances setting L_max |
 
 ## Installation
