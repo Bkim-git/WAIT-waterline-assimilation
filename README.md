@@ -1,4 +1,4 @@
-# Intertidal DTM from satellite waterlines
+# Waterline-Assimilated Intertidal Topography (WAIT)
 
 Sentinel-2 waterlines, a water level for every vertex, and a sequential per-cell
 assimilation that turns the two into a digital terrain model of the intertidal zone.
