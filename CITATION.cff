@@ -1,0 +1,26 @@
+# To add later: doi, version and date-released once a release is archived
+# (e.g. on Zenodo), and the paper's doi, year and volume once it is published.
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Intertidal DTM from satellite waterlines"
+type: software
+authors:
+  - given-names: Byunguk
+    family-names: Kim
+  - given-names: Minjae
+    family-names: Lee
+  - given-names: Yong Sung
+    family-names: Park
+license: MIT
+preferred-citation:
+  type: article
+  title: "Continuously Updated Intertidal Topography through Satellite-Derived Waterline Assimilation"
+  authors:
+    - given-names: Byunguk
+      family-names: Kim
+    - given-names: Minjae
+      family-names: Lee
+    - given-names: Yong Sung
+      family-names: Park
+  journal: "Geophysical Research Letters"
+  status: submitted

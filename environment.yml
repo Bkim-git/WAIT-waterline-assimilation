@@ -1,0 +1,13 @@
+# The versions the code was tested with; nearby versions should also work.
+name: intertidal-dtm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.4
+  - scipy=1.17
+  - xarray=2025.1
+  - netcdf4=1.7        # xarray's backend for the scene files
+  - pyproj=3.7
+  - rasterio=1.4
+  - matplotlib=3.11

@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Store text as LF and check it out as LF on every platform, so Git never
+# converts line endings and never warns about them.
+* text=auto eol=lf
