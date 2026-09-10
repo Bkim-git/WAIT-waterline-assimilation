@@ -56,7 +56,7 @@ ALL_CAPS constants at the top of each module; the main ones:
 | `HUBER_C` | 1.345 | Huber threshold, in units of the innovation's scale |
 | `DIFFUSIVITY_M2_PER_YEAR` | 50 m² yr⁻¹ | forecast diffusion (regularisation) |
 | `MAX_ANALYSIS_SD_M` | 1.0 m | a cell is reported where sqrt(P) is below it |
-| `REJECT_DIFF_PCT` | 95 | percentile of the run's innovations setting delta_max |
+| `REJECT_DIFF_PCT` | 99 | percentile of the run's innovations setting delta_max |
 | `REJECT_DIST_PCT` | 99 | percentile of the run's new-cell distances setting L_max |
 
 ## Installation
@@ -68,13 +68,6 @@ Python 3.11 with numpy, scipy, xarray, netCDF4, pyproj, rasterio and matplotlib,
 at the versions pinned in `environment.yml`.
 
 ## References
-
-Hess, K. W. (2003), Water level simulation in bays by spatial interpolation of
-tidal constituents, residual water levels, and datums, *Continental Shelf
-Research*, 23, 395-414.
-
-Stockdon, H. F., R. A. Holman, P. A. Howd and A. H. Sallenger (2006), Empirical
-parameterization of setup, swash and runup, *Coastal Engineering*, 53, 573-588.
 
 ## License
 
